@@ -1,0 +1,140 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+
+}
+.background {
+	background-image: url("../img/chali-final.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
+}
+.panel.panel-default.login {
+	background-color: #515151;
+	padding: 15px;
+	padding-bottom: 25px;
+	border: none;
+}
+.container .login-form {
+	margin: 10% auto;
+	height: 100%;
+	padding: 5%;
+}
+.alert.alert-warning.err-msg {
+	background-color: #eebb59;
+	color: white;
+	border: none;
+}
+.logo-section {
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.logo {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.login-header {
+	font-family: "Birds of Paradise";
+	color: white;
+	text-align: center;
+	font-size: 3.8em;
+}
+.divider {
+	height: 1px;
+	display: block;
+	background-color: white;
+	color: white;
+}
+.err-msg {
+	background-color: #f45c5c;
+	color: white;
+	padding: 10px;
+	border-radius: 3px;
+	margin-bottom: 5px;
+	font-family: "Gotham";
+}
+@media only screen and (max-width: 550px) {
+	.login-header {
+		font-size: 3em;
+	}
+	.logo {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 450px) {
+	.forgot-pass.pull-right {
+		overflow: hidden;
+    	width: 100%;
+    	float: none;
+	}
+	.login-btn {
+		overflow: hidden;
+	}
+
+}
+
+label {
+	color: white;
+}
+.login-btn {
+	height: 38px;
+	background-color: #E5A442;
+	padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+	border-radius: 3px;
+	margin-top: 10px;
+	display: block;
+	text-align: center;
+	color: white;
+}
+.login-btn label {
+	padding-top: 3px;
+}
+.login-btn:hover {
+	color: white;
+	text-decoration: none;
+	background-color: #df9a33;
+}
+label {
+	font-family: "Gotham";
+	font-weight: ;
+
+}
+.forgot-pass {
+	color: #74d8fd;
+}
+.forgot-pass:hover {
+	color: #5dcef8;
+}
+.remember-me {
+	color: white;
+	font-family: "Gotham";
+	display: block;
+}
+.login-form input[type=text], input[type=password] {
+  height: 38px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  border-radius: 3px;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+input[type=textbox] p {
+	color: white;
+}
